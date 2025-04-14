@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-primary: '#2A9D8F'; /*Verde água moderno — destaques, títulos, botões*/
+    --color-primaryHover: '#25877C'; /*Hover primário mais escuro*/
+    --color-secondary: '#F5C46D'; /*Amarelo areia — temperatura detalhes*/
+    --color-secondaryHover: '#eab952'; /*Hover secundário*/
+    --color-background: '#F5F9FB'; /*Azul bem claro — fundo geral*/
+    --color-foreground: '#1C1C1C'; /*Grafite escuro — texto principal*/
+    --color-muted: '#555555'; /*Cinza médio — texto secundário*/
+    --color-cardText: '#333333'; /*Cinza escuro — texto dentro dos cards*/
+    --color-card: '#FFFFFF'; /*Branco puro — fundo dos cards*/
+    --color-accent: '#5196A6'; /*Azul acinzentado — badges, dicas*/
+    --color-accentLight: '#2A9D8F1A'; /*Acento com transparência (10%)*/
+}
+
